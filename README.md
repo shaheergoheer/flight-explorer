@@ -1,10 +1,10 @@
-# flight-explorer
+# Flight Explorer
 
+Flight Explorer App is a web application that helps users plan their flights by providing features such as generating flight information based on user input and scraping flight details from a travel website.
 
-Introducing Vibe Check: Connect with Like-Minded Individuals!
+## Features
 
-Vibe Check is a unique social networking application designed to foster meaningful connections based on shared interests. With Vibe Check, users can create personalized profiles and curate lists of their interests, spanning a wide range of topics from hobbies and passions to professional pursuits.
-
-The heart of Vibe Check lies in its 'vibe rooms,' where users can join virtual spaces centered around specific interests. By simply adding their interests to their profile and joining vibe rooms, users can discover others who share their passions. Vibe Check then utilizes innovative algorithms to identify similarities between users' interests within these rooms, facilitating organic connections and conversations.
-
-Whether you're a seasoned enthusiast or just exploring new interests, Vibe Check provides a welcoming environment to meet like-minded individuals and expand your social circle. Join the Vibe Check community today and let the similarities in your interests spark new friendships and collaborations!
+- **Generative AI Integration:** Utilizes Google's GenerativeAI to parse user input and extract relevant flight details.
+- **Flight Scraping:** Scrapes flight information from a travel website using Selenium.
+- **Web API:** Provides a RESTful API powered by FastAPI for interacting with the application programmatically.
+- **Interactive Web Interface:** Offers a user-friendly web interface for users to input their flight preferences and view flight options.
